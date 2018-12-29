@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body {
+	font-family: Georgia;
+	padding-left: 17%;
+	padding-right: 17%;
+	color: #494a4c;
+}
+
+.show { 
+	display: inline;  
+}
+     
+.hide { 
+	display: none;
+}
+
+a:link {
+	color: #820b1e;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #820b1e;
+}
+
+a:hover {
+	color: #dbdbdb;
+}
+
+a:active {
+	color: #000000;
+}
+
+a#tours:hover {
+	color: #494a4c;
+}
+
+hr {
+  	border:none;
+ 	width: 100%;
+	border-bottom: 1px solid #000000;
+}
+
+h3 {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 36px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+
+ol {
+	list-style-type: 1;
+	padding-left: 80px;
+}
+
+table, td, th {
+	text-align: center;
+	position: center;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	table-layout: fixed;
+}
+
+div {
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+	color: #494a4c;
+}
+
+small {
+	font-size: x-small;
+	font-style: italic;
+}
+
+.content {
+	position: center;
+	width: 10%;
+	border: 0;
+	height: 0.5pt;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
